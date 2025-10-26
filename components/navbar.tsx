@@ -7,7 +7,7 @@ import { useScroll } from "@/lib/useScroll";
 import ContactButton from "./ui/contact-button";
 
 const navLinks = [
-  { href: "#projects", label: "Projects" },
+  { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
 ];
 

@@ -1,7 +1,6 @@
 import React from "react";
 import ContactButton from "./ui/contact-button";
 import Image from "next/image";
-import AnimatedLogoCloud from "./animationlogocloud";
 
 export default function Hero() {
   return (

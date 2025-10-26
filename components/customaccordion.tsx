@@ -18,10 +18,10 @@ const accordionData: AccordionData[] = [
   {
     id: 1,
     title: (
-      <p className="text-3xl font-medium mb-5 text-black/80">Who We Are</p>
+      <p>Who We Are</p>
     ),
     description: (
-      <div className="space-y-2 w-11/12">
+      <div>
         Africa for Development Legacy Foundation (ADL Foundation) is a nonprofit
         organization driving inclusive and sustainable development in Ghana. We
         equip marginalized groups with the skills, confidence, and tools to
@@ -32,10 +32,10 @@ const accordionData: AccordionData[] = [
   {
     id: 2,
     title: (
-      <p className="text-3xl font-medium mb-5 text-black/80">Our History</p>
+      <p>Our History</p>
     ),
     description: (
-      <div className="space-y-2 w-11/12">
+      <div>
         ADL Foundation was founded to bridge the opportunity gap for communities
         in underserved areas—particularly in the Western and Western North
         regions. What began as a grassroots initiative has grown into a dynamic
@@ -47,27 +47,27 @@ const accordionData: AccordionData[] = [
   {
     id: 3,
     title: (
-      <p className="text-3xl font-medium mb-5 text-black/80">Our Structure</p>
+      <p>Our Structure</p>
     ),
     description: (
-      <ol className="space-y-2 w-11/12">
-        <li>Project Management</li>
-        <li>Community Engagement</li>
-        <li>Digital Skills Training</li>
-        <li>Business Development</li>
-        <li>Media & Communications</li>
-      </ol>
+      <div className="grid grid-cols-3">
+        <p>1. Project Management</p>
+        <p>2. Community Engagement</p>
+        <p>3. Digital Skills Training</p>
+        <p>4. Business Development</p>
+        <p>5. Media & Communications</p>
+      </div>
     ),
   },
   {
     id: 4,
     title: (
-      <p className="text-3xl font-medium mb-5 text-black/80">
+      <p>
         Vision Statement
       </p>
     ),
     description: (
-      <div className="space-y-2 w-11/12">
+      <div>
         To transform the lives of individuals and communities in underprivileged
         areas by fostering a culture of innovation, entrepreneurship, and skills
         development—ultimately driving sustainable economic growth and social
@@ -78,12 +78,12 @@ const accordionData: AccordionData[] = [
   {
     id: 5,
     title: (
-      <p className="text-3xl font-medium mb-5 text-black/80">
+      <p>
         Mission Statement
       </p>
     ),
     description: (
-      <div className="space-y-2 w-11/12">
+      <div>
         To establish a vibrant hub that empowers marginalized communities
         through holistic capacity building, vocational training, and business
         development initiatives. We strive to bridge the gap between opportunity
@@ -123,7 +123,7 @@ export function AccordionDemo({
           <div className="w-full">
             <AccordionTrigger
               onClick={() => handleItemClick(item.id)}
-              className={`text-xl hover:no-underline hover:cursor-pointer text-white`}
+              className={`text-2xl hover:no-underline hover:cursor-pointer font-medium text-black/80`}
             >
               {item.title}
             </AccordionTrigger>
