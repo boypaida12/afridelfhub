@@ -72,7 +72,7 @@ export default function WhatWeDo() {
         What We Do
       </h2>
       <div className="lg:bg-[url('/assets/images/project6.jpg')] bg-center bg-cover h-160 relative">
-        <div className="lg:w-250 xl:w-300 w-full absolute -bottom-16 left-1/2 -translate-x-1/2">
+        <div className="lg:w-250 xl:w-300 w-full lg:absolute -bottom-16 left-1/2 lg:-translate-x-1/2">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 max-[49rem]:px-5">
             {rvmContent.map((card, index) => (
               <WhiteBgCard

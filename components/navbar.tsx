@@ -46,7 +46,7 @@ export default function Navbar() {
         className={`py-5 px-15 max-md:px-6 flex items-center ${
           isScrolled ? "text-gray-600" : "text-white"
         } fixed top-0 left-0 right-0 ${
-          isScrolled ? "bg-white" : "bg-transparent"
+          isScrolled ? "bg-white border-b" : "bg-transparent"
         } z-9999`}
       >
         <div className="flex gap-2 items-center">
